@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\fe__f\OneDrive\Documentos\Dev\Desafios 1 Java GFT Start Woman\desafio-banco-java\.metadata\.plugins\org.eclipse.jdt.core
+2548554801.index
+2707940638.index
+1865797976.index

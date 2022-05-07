@@ -1,0 +1,23 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Cliente fernanda = new Cliente();
+		fernanda.setNome("Fernanda");
+		
+		Cliente cpf = new Cliente();
+		cpf.setCpf("361.256.284-18");
+				
+		ContaCorrente cc = new ContaCorrente(fernanda);
+		ContaPoupanca cp = new ContaPoupanca(fernanda);
+						
+		cc.depositar(100);	
+		cc.transferir(100, cp);
+		
+		cc.imprimirExtrato();
+		cp.imprimirExtrato();
+
+	}
+
+}
